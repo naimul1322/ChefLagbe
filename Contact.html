@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - ChefLagbe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/Contact.css">
+  </head>
+  <body>
+    <!-- Header / Navigation Bar -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="logo">
+            <img src="/CheefLogo.png" alt="Logo" style="height: 60px" />
+            ChefLagbe
+          </a>
+
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <div class="auth-buttons">
+            <a href="login.html" class="btn btn-secondary">Login</a>
+            <a href="signup.html" class="btn">Sign Up</a>
+          </div>
+
+          <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+      <div class="container">
+        <div class="contact-hero-content">
+          <h1>Get In Touch With Us</h1>
+          <p>
+            We're here to answer your questions and help you create amazing
+            culinary experiences
+          </p>
+          <a href="#contact-form" class="btn">Send a Message</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>
+            We'd love to hear from you. Choose the most convenient way to get in
+            touch.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>
+              Have questions about our services or need help with a booking?
+              Reach out to us through any of the channels below.
+            </p>
+
+            <ul class="contact-methods">
+              <li>
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Our Location</h4>
+                  <p>
+                    Daffodil Smart City (DSC)<br />Smart City, Dhaka<br />Bangladesh
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Phone Number</h4>
+                  <p>+880 1797 753943<br />+880 9876 543210</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email Address</h4>
+                  <p>info@cheflagbe.com<br />support@cheflagbe.com</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Working Hours</h4>
+                  <p>
+                    Sunday - Thursday: 9:00 AM - 8:00 PM<br />
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <h4>Follow Us</h4>
+            <div class="social-contact">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-form" id="contact-form">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    class="form-control"
+                    placeholder="Enter your first name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    class="form-control"
+                    placeholder="Enter your last name"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" class="form-control" required>
+                  <option value="">Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="booking">Booking Assistance</option>
+                  <option value="chef">Become a Chef</option>
+                  <option value="complaint">Complaint</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn" style="width: 100%">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section map-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Find Us</h2>
+          <p>Visit our office or find us on the map</p>
+        </div>
+
+        <div class="map-container">
+          <div class="map-placeholder">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Interactive Map</h3>
+            <a href="https://maps.app.goo.gl/Mb8k7rstvMzF15Jt6"><img src="/Photo/location-background-image.jpg" alt="loaction"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Quick answers to common questions about our services</p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item active">
+            <div class="faq-question">
+              <span>How do I book a chef?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Booking a chef is simple! You can browse our chef profiles,
+                select the one that matches your needs, and use our online
+                booking system to schedule a date and time. Alternatively, you
+                can contact our support team who will help you find the perfect
+                chef for your occasion.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>What is your cancellation policy?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We offer flexible cancellation options. You can cancel your
+                booking up to 48 hours before the scheduled service for a full
+                refund. Cancellations made between 24-48 hours before the
+                service will receive a 50% refund. Unfortunately, we cannot
+                offer refunds for cancellations made less than 24 hours before
+                the service.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>How are chefs vetted on your platform?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                All our chefs go through a rigorous vetting process that
+                includes background checks, verification of culinary
+                credentials, and practical cooking assessments. We also check
+                references and require proof of food safety certification. Only
+                chefs who meet our high standards are accepted onto our
+                platform.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Do you offer services outside of major cities?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, we're expanding our services to more locations across
+                Bangladesh. While our primary service areas are major cities, we
+                have chefs available in many regional areas. Please contact us
+                with your specific location, and we'll check availability for
+                you.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>What payment methods do you accept?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We accept various payment methods including credit/debit cards
+                (Visa, MasterCard, American Express), mobile banking (bKash,
+                Nagad), and bank transfers. All payments are processed securely
+                through our encrypted payment system.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to Book Your Chef?</h2>
+        <p>
+          Join thousands of satisfied customers who have discovered the joy of
+          professional chef services
+        </p>
+        <div class="cta-buttons">
+          <a href="signup.html" class="btn">Sign Up Now</a>
+          <a
+            href="chefs.html"
+            class="btn btn-outline"
+            style="
+              background-color: transparent;
+              border: 2px solid white;
+              color: white;
+            "
+            >Browse Chefs</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>ChefLagbe</h3>
+            <p>
+              Connecting food lovers with professional chefs for exceptional
+              culinary experiences at home or events.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="chefs.html">Chefs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Services</h3>
+            <ul class="footer-links">
+              <li><a href="#">Home Cooking</a></li>
+              <li><a href="#">Event Chef</a></li>
+              <li><a href="#">Catering Team</a></li>
+              <li><a href="#">Cooking Classes</a></li>
+              <li><a href="#">Meal Planning</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Daffodil Smart City (DSC),
+                Dhaka,Bangladesh
+              </li>
+              <li><i class="fas fa-phone"></i> +880 1797 753943</li>
+              <li><i class="fas fa-envelope"></i> info@cheflagbe.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 ChefLagbe. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

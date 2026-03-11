@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - ChefLagbe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/signup.css">
+</head>
+<body>
+    <!-- Header / Navigation Bar -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <!-- <i class="fas fa-utensils"></i>  -->
+                     <img src="/CheefLogo.png" alt="Logo" style="height: 60px;">
+                    ChefLagbe
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/chefs.html">Chefs</a></li>
+                    <li><a href="/Contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-secondary">Login</a>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+                
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Signup Section -->
+    <section class="signup-section">
+        <div class="signup-container">
+            <div class="signup-image">
+                <h2>Join ChefLagbe Today</h2>
+                <p>Create an account to start your culinary journey with professional chefs and exceptional dining experiences.</p>
+                
+                <ul class="benefits">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h3>Personalized Chef Matching</h3>
+                            <p>Find the perfect chef based on your preferences and dietary needs.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h3>Easy Booking & Payment</h3>
+                            <p>Schedule services and make secure payments with just a few clicks.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h3>Exclusive Offers</h3>
+                            <p>Get access to special promotions and discounts for members.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h3>Manage Your Bookings</h3>
+                            <p>Keep track of all your past and upcoming chef services.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="signup-form-container">
+                <div class="signup-header">
+                    <h1>Create Account</h1>
+                    <p>Join ChefLagbe to discover amazing culinary experiences</p>
+                </div>
+                
+                <form class="signup-form">
+                    <div class="user-type">
+                        <div class="user-option selected" data-type="customer">
+                            <i class="fas fa-user"></i>
+                            <h3>Customer</h3>
+                            <p>I want to hire a chef</p>
+                        </div>
+                        <div class="user-option" data-type="chef">
+                            <i class="fas fa-utensils"></i>
+                            <h3>Chef</h3>
+                            <p>I want to offer my services</p>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="firstName" placeholder="Enter your first name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="lastName" placeholder="Enter your last name" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="password" placeholder="Create a password" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-phone"></i>
+                            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" id="location" placeholder="Enter your city" required>
+                        </div>
+                    </div>
+                    
+                    <div class="terms">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                    
+                    <div class="terms">
+                        <input type="checkbox" id="newsletter">
+                        <label for="newsletter">Send me updates about new chefs, special offers, and culinary tips</label>
+                    </div>
+                    
+                    <button type="submit" class="btn signup-btn">Create Account</button>
+                    
+                    <div class="divider">
+                        <span>Or sign up with</span>
+                    </div>
+                    
+                    <div class="social-signup">
+                        <button type="button" class="social-btn google">
+                            <i class="fab fa-google"></i>
+                            <span>Google</span>
+                        </button>
+                        <button type="button" class="social-btn facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </button>
+                    </div>
+                    
+                    <div class="login-link">
+                        <p>Already have an account? <a href="login.html">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ChefLagbe</h3>
+                    <p>Connecting food lovers with professional chefs for exceptional culinary experiences at home or events.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/services.html">Services</a></li>
+                        <li><a href="/chefs.html">Chefs</a></li>
+                        <li><a href="/Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home Cooking</a></li>
+                        <li><a href="#">Event Chef</a></li>
+                        <li><a href="#">Catering Team</a></li>
+                        <li><a href="#">Cooking Classes</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Daffodil Smart City (DSC), Dhaka,Bangladesh</li>
+                        <li><i class="fas fa-phone"></i> +880 1797753943</li>
+                        <li><i class="fas fa-envelope"></i> info@cheflagbe.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ChefLagbe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Chefs - ChefLagbe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/chefs.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation Bar -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="logo">
+            <img src="/CheefLogo.png" alt="Logo" style="height: 60px" />
+            ChefLagbe
+          </a>
+
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="/Contact.html">Contact</a></li>
+          </ul>
+
+          <div class="auth-buttons">
+            <a href="login.html" class="btn btn-secondary">Login</a>
+            <a href="signup.html" class="btn">Sign Up</a>
+          </div>
+
+          <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Chefs Hero Section -->
+    <section class="chefs-hero">
+      <div class="container">
+        <div class="chefs-hero-content">
+          <h1>Meet Our Talented Chefs</h1>
+          <p>
+            Discover professional chefs with diverse culinary backgrounds ready
+            to create exceptional dining experiences for you
+          </p>
+          <a href="#chefs" class="btn">Browse Chefs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search & Filter Section -->
+    <section class="search-filter">
+      <div class="container">
+        <div class="search-container">
+          <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input
+              type="text"
+              placeholder="Search by chef name, cuisine, or specialty..."
+            />
+          </div>
+
+          <div class="filter-options">
+            <select class="filter-select">
+              <option value="">All Cuisines</option>
+              <option value="italian">Italian</option>
+              <option value="french">French</option>
+              <option value="asian">Asian</option>
+              <option value="indian">Indian</option>
+              <option value="mediterranean">Mediterranean</option>
+              <option value="fusion">Fusion</option>
+            </select>
+
+            <select class="filter-select">
+              <option value="">All Locations</option>
+              <option value="dhaka">Dhaka</option>
+              <option value="chittagong">Chittagong</option>
+              <option value="sylhet">Sylhet</option>
+              <option value="rajshahi">Rajshahi</option>
+            </select>
+
+            <select class="filter-select">
+              <option value="">Any Rating</option>
+              <option value="5">5 Stars</option>
+              <option value="4">4+ Stars</option>
+              <option value="3">3+ Stars</option>
+            </select>
+
+            <button class="btn">Apply Filters</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chefs Grid Section -->
+    <section id="chefs" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Professional Chefs</h2>
+          <p>
+            Handpicked culinary experts with verified credentials and
+            outstanding reviews
+          </p>
+        </div>
+
+        <div class="chefs-grid">
+          <!-- Chef 1 -->
+          <div class="chef-card featured">
+            <div
+              class="chef-img"
+              style="
+                background-image: url('https://thetoptenchefs.com/wp/wp-content/uploads/2016/10/Chef-Ahmed-Hossain-top-10-chefs-in-Bangladesh.jpg');
+              "
+            >
+              <div class="chef-badge">Top Rated</div>
+            </div>
+            <div class="chef-info">
+              <div class="chef-header">
+                <div>
+                  <h3 class="chef-name">Chef Ahmed Hossain</h3>
+                  <p class="chef-specialty">Italian & Mediterranean Cuisine</p>
+                </div>
+              </div>
+
+              <div class="chef-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>4.5 (128 reviews)</span>
+              </div>
+
+              <div class="chef-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Dhaka, Bangladesh</span>
+              </div>
+
+              <p class="chef-description">
+                Trained in Italy with 10+ years of experience. Specializes in
+                authentic Italian dishes with a modern twist.
+              </p>
+
+              <div class="chef-skills">
+                <span class="skill-tag">Pasta Making</span>
+                <span class="skill-tag">Wood-fired Pizza</span>
+                <span class="skill-tag">Seafood</span>
+              </div>
+
+              <div class="chef-footer">
+                <div class="chef-price">৳5000 <span>/hour</span></div>
+                <a href="#" class="btn">View Profile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chef 2 -->
+          <div class="chef-card">
+            <div
+              class="chef-img"
+              style="
+                background-image: url('https://thetoptenchefs.com/wp/wp-content/uploads/2016/10/Chef-Asad-Latif-top-ten-chefs-in-Bangladesh-768x576.jpg');
+              "
+            >
+              <div class="chef-badge">Available</div>
+            </div>
+            <div class="chef-info">
+              <div class="chef-header">
+                <div>
+                  <h3 class="chef-name">Chef Asad Latif</h3>
+                  <p class="chef-specialty">French & Fusion Cuisine</p>
+                </div>
+              </div>
+
+              <div class="chef-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>5.0 (96 reviews)</span>
+              </div>
+
+              <div class="chef-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Chittagong, Bangladesh</span>
+              </div>
+
+              <p class="chef-description">
+                Former executive chef at a 5-star hotel with expertise in French
+                techniques and Asian fusion.
+              </p>
+
+              <div class="chef-skills">
+                <span class="skill-tag">Sauces</span>
+                <span class="skill-tag">Pastry</span>
+                <span class="skill-tag">Molecular Gastronomy</span>
+              </div>
+
+              <div class="chef-footer">
+                <div class="chef-price">৳3000 <span>/hour</span></div>
+                <a href="#" class="btn">View Profile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chef 3 -->
+          <div class="chef-card">
+            <div
+              class="chef-img"
+              style="
+                background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdB0QGy9rnZ0jGpmPovNeXUvC1QxB2smXxAtokZHHV3NS6w4aagNvotrXa6P59-UqQkqskJsAPLfzp4glF2d6jXAHQoZ9WfQfjwfzkAtzYw_vYhyphenhyphenjQ9tZ58BcSeQ3MNdpnZGVDBfiIDoeX/w1200-h630-p-k-no-nu/225333_141946999211179_141946479211231_281465_3375276_n.jpg');
+              "
+            >
+              <div class="chef-badge">Popular</div>
+            </div>
+            <div class="chef-info">
+              <div class="chef-header">
+                <div>
+                  <h3 class="chef-name">Chef Kabir</h3>
+                  <p class="chef-specialty">Indian & Asian Cuisine</p>
+                </div>
+              </div>
+
+              <div class="chef-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>4.0 (142 reviews)</span>
+              </div>
+
+              <div class="chef-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Sylhet, Bangladesh</span>
+              </div>
+
+              <p class="chef-description">
+                Expert in traditional Indian cooking with modern presentation.
+                Specializes in vegetarian and vegan dishes.
+              </p>
+
+              <div class="chef-skills">
+                <span class="skill-tag">Curry Master</span>
+                <span class="skill-tag">Tandoori</span>
+                <span class="skill-tag">Vegetarian</span>
+              </div>
+
+              <div class="chef-footer">
+                <div class="chef-price">৳2500 <span>/hour</span></div>
+                <a href="#" class="btn">View Profile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chef 4 -->
+          <div class="chef-card">
+            <div
+              class="chef-img"
+              style="
+                background-image: url('https://thetoptenchefs.com/wp/wp-content/uploads/2016/10/chef-Tony-top-chefs-in-Bangladesh.jpg');
+              "
+            >
+              <div class="chef-badge">New</div>
+            </div>
+            <div class="chef-info">
+              <div class="chef-header">
+                <div>
+                  <h3 class="chef-name">Chef Tony</h3>
+                  <p class="chef-specialty">Middle Eastern & Bengali Cuisine</p>
+                </div>
+              </div>
+
+              <div class="chef-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>5.0 (87 reviews)</span>
+              </div>
+
+              <div class="chef-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Rajshahi, Bangladesh</span>
+              </div>
+
+              <p class="chef-description">
+                Blends traditional Bengali flavors with Middle Eastern
+                techniques for unique culinary experiences.
+              </p>
+
+              <div class="chef-skills">
+                <span class="skill-tag">Grilling</span>
+                <span class="skill-tag">Spice Blending</span>
+                <span class="skill-tag">Traditional Bengali</span>
+              </div>
+
+              <div class="chef-footer">
+                <div class="chef-price">৳4000 <span>/hour</span></div>
+                <a href="#" class="btn">View Profile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chef 5 -->
+          <div class="chef-card">
+            <div
+              class="chef-img"
+              style="
+                background-image: url('https://thetoptenchefs.com/wp/wp-content/uploads/2016/10/MAnik-Miah-top-10-chefs-in-Bangladesh.jpg');
+              "
+            >
+              <div class="chef-badge">Available</div>
+            </div>
+            <div class="chef-info">
+              <div class="chef-header">
+                <div>
+                  <h3 class="chef-name">Chef Manik Miah</h3>
+                  <p class="chef-specialty">Chinese & Japanese Cuisine</p>
+                </div>
+              </div>
+
+              <div class="chef-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>4.5 (113 reviews)</span>
+              </div>
+
+              <div class="chef-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Dhaka, Bangladesh</span>
+              </div>
+
+              <p class="chef-description">
+                Trained in Tokyo and Beijing. Expert in sushi, ramen, and
+                authentic Chinese regional dishes.
+              </p>
+
+              <div class="chef-skills">
+                <span class="skill-tag">Sushi</span>
+                <span class="skill-tag">Dim Sum</span>
+                <span class="skill-tag">Noodle Making</span>
+              </div>
+
+              <div class="chef-footer">
+                <div class="chef-price">৳4500 <span>/hour</span></div>
+                <a href="#" class="btn">View Profile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chef 6 -->
+          <div class="chef-card">
+            <div
+              class="chef-img"
+              style="
+                background-image: url('https://assets.roar.media/Bangla/2017/07/IMG_9926-701x467.jpg');
+              "
+            >
+              <div class="chef-badge">Available</div>
+            </div>
+            <div class="chef-info">
+              <div class="chef-header">
+                <div>
+                  <h3 class="chef-name">Chef Baisab</h3>
+                  <p class="chef-specialty">Latin American & BBQ</p>
+                </div>
+              </div>
+
+              <div class="chef-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>4.0 (76 reviews)</span>
+              </div>
+
+              <div class="chef-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Chittagong, Bangladesh</span>
+              </div>
+
+              <p class="chef-description">
+                Specialist in Latin American street food and authentic BBQ
+                techniques with 8 years of experience.
+              </p>
+
+              <div class="chef-skills">
+                <span class="skill-tag">BBQ</span>
+                <span class="skill-tag">Tacos</span>
+                <span class="skill-tag">Ceviche</span>
+              </div>
+
+              <div class="chef-footer">
+                <div class="chef-price">৳4200 <span>/hour</span></div>
+                <a href="#" class="btn">View Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+          <a href="#" class="page-btn"><i class="fas fa-chevron-left"></i></a>
+          <a href="#" class="page-btn active">1</a>
+          <a href="#" class="page-btn">2</a>
+          <a href="#" class="page-btn">3</a>
+          <a href="#" class="page-btn">4</a>
+          <a href="#" class="page-btn"><i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Become a Chef Section -->
+    <section class="become-chef">
+      <div class="container">
+        <h2>Become a ChefLagbe Chef</h2>
+        <p>
+          Join our platform and share your culinary talents with food lovers
+          across Bangladesh
+        </p>
+        <a href="signup.html?type=chef" class="btn">Apply Now</a>
+
+        <div class="benefits">
+          <div class="benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <h3>Grow Your Clientele</h3>
+            <p>Reach new customers and expand your business</p>
+          </div>
+
+          <div class="benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-money-bill-wave"></i>
+            </div>
+            <h3>Earn More</h3>
+            <p>Set your own rates and keep 80% of your earnings</p>
+          </div>
+
+          <div class="benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3>Flexible Schedule</h3>
+            <p>Work when you want and manage your own calendar</p>
+          </div>
+
+          <div class="benefit">
+            <div class="benefit-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Secure Payments</h3>
+            <p>Get paid securely and on time for every booking</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <h2>Find Your Perfect Chef Today</h2>
+        <p>
+          Browse our talented chefs and book the perfect culinary experience for
+          your next event
+        </p>
+        <div class="cta-buttons">
+          <a href="signup.html" class="btn btn-secondary">Sign Up Now</a>
+          <a
+            href="#"
+            class="btn btn-outline"
+            style="
+              background-color: transparent;
+              border: 2px solid white;
+              color: white;
+            "
+            >Browse Services</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>ChefLagbe</h3>
+            <p>
+              Connecting food lovers with professional chefs for exceptional
+              culinary experiences at home or events.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="chefs.html">Chefs</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Services</h3>
+            <ul class="footer-links">
+              <li><a href="#">Home Cooking</a></li>
+              <li><a href="#">Event Chef</a></li>
+              <li><a href="#">Catering Team</a></li>
+              <li><a href="#">Cooking Classes</a></li>
+              <li><a href="#">Meal Planning</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Daffodil Smart City (DSC),
+                Dhaka,Bangladesh
+              </li>
+              <li><i class="fas fa-phone"></i> +880 1797753943</li>
+              <li><i class="fas fa-envelope"></i> info@cheflagbe.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 ChefLagbe. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
