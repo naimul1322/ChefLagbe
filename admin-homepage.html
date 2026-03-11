@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - ChefLagbe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/admin/admin-homepage.css">
+   
+</head>
+<body>
+    <!-- Dashboard Container -->
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2><img src="/CheefLogo.png" alt="Logo" style="height: 60px" /></i> ChefLagbe</h2>
+            </div>
+            
+            <div class="sidebar-menu">
+                <a href="#" class="menu-item active">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+                
+                <div class="menu-divider"></div>
+                
+                <div class="menu-label">Management</div>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-users"></i>
+                    <span>Users</span>
+                </a>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-utensils"></i>
+                    <span>Chefs</span>
+                </a>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Bookings</span>
+                </a>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-concierge-bell"></i>
+                    <span>Services</span>
+                </a>
+                
+                <div class="menu-divider"></div>
+                
+                <div class="menu-label">Content</div>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-star"></i>
+                    <span>Reviews</span>
+                </a>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-comments"></i>
+                    <span>Messages</span>
+                </a>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-newspaper"></i>
+                    <span>Blog</span>
+                </a>
+                
+                <div class="menu-divider"></div>
+                
+                <div class="menu-label">Financial</div>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-credit-card"></i>
+                    <span>Payments</span>
+                </a>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Reports</span>
+                </a>
+                
+                <div class="menu-divider"></div>
+                
+                <div class="menu-label">Settings</div>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </a>
+                
+                <a href="#" class="menu-item">
+                    <i class="fas fa-user-shield"></i>
+                    <span>Admins</span>
+                </a>
+                
+                <a href="index.html" class="menu-item">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Back to Site</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Top Navigation -->
+            <div class="top-nav">
+                <div class="top-nav-left">
+                    <div class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="page-title">
+                        <h1>Dashboard</h1>
+                    </div>
+                </div>
+                
+                <div class="top-nav-right">
+                    <div class="notification">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge">5</span>
+                    </div>
+                    
+                    <div class="admin-profile">
+                        <div class="admin-avatar">NI</div>
+                        <div class="admin-info">
+                            <h4>Naimul Islam</h4>
+                            <p>Administrator</p>
+                        </div>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dashboard Content -->
+            <div class="dashboard-content">
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon users">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>2,547</h3>
+                            <p>Total Users</p>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i> 12% from last month
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon chefs">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>156</h3>
+                            <p>Active Chefs</p>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i> 8% from last month
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon bookings">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>350</h3>
+                            <p>Monthly Bookings</p>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i> 15% from last month
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon revenue">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>৳45,580</h3>
+                            <p>Monthly Revenue</p>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i> 22% from last month
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charts and Tables -->
+                <div class="content-grid">
+                    <!-- Recent Bookings Table -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Recent Bookings</h3>
+                            <a href="#">View All</a>
+                        </div>
+                        
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Booking ID</th>
+                                        <th>Customer</th>
+                                        <th>Chef</th>
+                                        <th>Date</th>
+                                        <th>Amount</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>#BK-1025</td>
+                                        <td>Arafat Hossian</td>
+                                        <td>Chef Siddika Kabir</td>
+                                        <td>Oct 15, 2025</td>
+                                        <td>৳2000</td>
+                                        <td><span class="status confirmed">Confirmed</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>#BK-1024</td>
+                                        <td>Limon Hossian</td>
+                                        <td>Chef Tony Khan</td>
+                                        <td>Oct 14, 2025</td>
+                                        <td>৳3500</td>
+                                        <td><span class="status completed">Completed</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>#BK-1023</td>
+                                        <td>Akbar Ali</td>
+                                        <td>Chef Priya</td>
+                                        <td>Oct 14, 2025</td>
+                                        <td>৳4000</td>
+                                        <td><span class="status pending">Pending</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>#BK-1022</td>
+                                        <td>Omar Bin Khalid</td>
+                                        <td>Chef Ahmed</td>
+                                        <td>Nov 13, 2025</td>
+                                        <td>৳2500</td>
+                                        <td><span class="status cancelled">Cancelled</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>#BK-1021</td>
+                                        <td>Maria Sultana</td>
+                                        <td>Chef Abul Basher</td>
+                                        <td>Nov 12, 2025</td>
+                                        <td>৳3000</td>
+                                        <td><span class="status completed">Completed</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <!-- Recent Activity -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Recent Activity</h3>
+                            <a href="#">View All</a>
+                        </div>
+                        
+                        <ul class="activity-list">
+                            <li class="activity-item">
+                                <div class="activity-icon booking">
+                                    <i class="fas fa-calendar-plus"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>New Booking Created</h4>
+                                    <p>Arafat Hossian  booked Chef Hossian  for Dec 04</p>
+                                    <div class="activity-time">10 minutes ago</div>
+                                </div>
+                            </li>
+                            
+                            <li class="activity-item">
+                                <div class="activity-icon chef">
+                                    <i class="fas fa-user-plus"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>New Chef Registered</h4>
+                                    <p>Chef Ahmed signed up on the platform</p>
+                                    <div class="activity-time">2 hours ago</div>
+                                </div>
+                            </li>
+                            
+                            <li class="activity-item">
+                                <div class="activity-icon payment">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>Payment Received</h4>
+                                    <p>Payment of ৳2500 received for booking #BK-1020</p>
+                                    <div class="activity-time">5 hours ago</div>
+                                </div>
+                            </li>
+                            
+                            <li class="activity-item">
+                                <div class="activity-icon review">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>New Review Added</h4>
+                                    <p>Milon Hossain rated Chef Siddika Kabir 5 stars</p>
+                                    <div class="activity-time">1 day ago</div>
+                                </div>
+                            </li>
+                            
+                            <li class="activity-item">
+                                <div class="activity-icon booking">
+                                    <i class="fas fa-calendar-check"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>Booking Completed</h4>
+                                    <p>Booking #BK-1018 with Chef Habib completed</p>
+                                    <div class="activity-time">2 days ago</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Revenue Chart and Quick Actions -->
+                <div class="content-grid">
+                    <!-- Revenue Chart -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Revenue Overview</h3>
+                            <a href="#">View Report</a>
+                        </div>
+                        
+                        <div class="chart-container">
+                            <div class="chart-placeholder">
+                                <i class="fas fa-chart-bar"></i>
+                                <h4>Revenue Chart</h4>
+                                <p>In a real implementation, this would show a chart</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Actions -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Quick Actions</h3>
+                        </div>
+                        
+                        <div class="quick-actions">
+                            <div class="action-btn">
+                                <i class="fas fa-user-plus"></i>
+                                <span>Add User</span>
+                            </div>
+                            
+                            <div class="action-btn">
+                                <i class="fas fa-utensils"></i>
+                                <span>Add Chef</span>
+                            </div>
+                            
+                            <div class="action-btn">
+                                <i class="fas fa-calendar-plus"></i>
+                                <span>Create Booking</span>
+                            </div>
+                            
+                            <div class="action-btn">
+                                <i class="fas fa-file-invoice-dollar"></i>
+                                <span>Generate Report</span>
+                            </div>
+                            
+                            <div class="action-btn">
+                                <i class="fas fa-cog"></i>
+                                <span>Settings</span>
+                            </div>
+                            
+                            <div class="action-btn">
+                                <i class="fas fa-question-circle"></i>
+                                <span>Help Center</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Info -->
+                <div class="content-grid">
+                    <!-- Chef Applications -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Chef Applications</h3>
+                            <a href="#">View All</a>
+                        </div>
+                        
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Specialty</th>
+                                        <th>Applied Date</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Rahman</td>
+                                        <td>Mexican Cuisine</td>
+                                        <td>Oct 14, 2025</td>
+                                        <td><span class="status pending">Pending</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">Review</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fatema </td>
+                                        <td>French Pastry</td>
+                                        <td>Oct 13, 2025</td>
+                                        <td><span class="status pending">Pending</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">Review</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Khadiza</td>
+                                        <td>Japanese Cuisine</td>
+                                        <td>Oct 12, 2025</td>
+                                        <td><span class="status pending">Pending</span></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm">Review</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <!-- Platform Stats -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Platform Statistics</h3>
+                        </div>
+                        
+                        <div class="stats-grid" style="grid-template-columns: 1fr; margin-top: 10px;">
+                            <div class="stat-card" style="padding: 15px;">
+                                <div class="stat-info">
+                                    <p style="font-size: 0.9rem; margin-bottom: 10px;">Booking Completion Rate</p>
+                                    <h3 style="font-size: 1.5rem;">94%</h3>
+                                    <div class="stat-change positive">
+                                        <i class="fas fa-arrow-up"></i> 2% from last month
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="stat-card" style="padding: 15px;">
+                                <div class="stat-info">
+                                    <p style="font-size: 0.9rem; margin-bottom: 10px;">Average Rating</p>
+                                    <h3 style="font-size: 1.5rem;">4.7</h3>
+                                    <div class="stat-change positive">
+                                        <i class="fas fa-arrow-up"></i> 0.2 from last month
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="stat-card" style="padding: 15px;">
+                                <div class="stat-info">
+                                    <p style="font-size: 0.9rem; margin-bottom: 10px;">Customer Satisfaction</p>
+                                    <h3 style="font-size: 1.5rem;">96%</h3>
+                                    <div class="stat-change positive">
+                                        <i class="fas fa-arrow-up"></i> 3% from last month
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="dashboard-footer">
+                <p>&copy; 2025 ChefLagbe Admin Dashboard. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
