@@ -1,0 +1,62 @@
+home cards 3
+1280 / overflow 0
+1280 /about overflow 0
+1280 /services overflow 0
+1280 /chefs overflow 0
+1280 /contact overflow 0
+1280 /signup overflow 0
+1280 /login overflow 0
+1280 /chefs/1 overflow 0
+1280 /booking/1 overflow 0
+1280 /admin/login overflow 0
+768 / overflow 0
+768 /about overflow 0
+768 /services overflow 0
+768 /chefs overflow 0
+768 /contact overflow 0
+768 /signup overflow 0
+768 /login overflow 0
+768 /chefs/1 overflow 0
+768 /booking/1 overflow 0
+768 /admin/login overflow 0
+390 / overflow 0
+390 /about overflow 0
+390 /services overflow 0
+390 /chefs overflow 0
+390 /contact overflow 0
+390 /signup overflow 0
+390 /login overflow 0
+390 /chefs/1 overflow 0
+390 /booking/1 overflow 0
+390 /admin/login overflow 0
+filter success 4
+availability Chef is available for this slot.
+booking/payment/customer dashboard successful
+chef dashboard tabs successful
+admin dashboard successful 16
+faq successful
+Page errors: []
+320px: / no overflow
+320px: /about no overflow
+320px: /services no overflow
+320px: /chefs no overflow
+320px: /contact no overflow
+320px: /login no overflow
+320px: /signup no overflow
+320px: /chefs/1 no overflow
+320px: /booking/1 no overflow
+320px: /admin/login no overflow
+Guest checkout gated before submission
+Availability cleared when slot changes
+Password visibility toggles
+Wrong dashboard role redirected
+Missing booking cannot submit payment
+Overlap + duplicate-payment regression: {'confirmed': 21, 'cancelled': 22, 'refund': 'refunded', 'idempotency': True}
+Chef can pause all availability
+Admin table search works
+320 admin dashboard no horizontal page overflow
+390 admin dashboard no horizontal page overflow
+768 admin dashboard no horizontal page overflow
+1280 admin dashboard no horizontal page overflow
+Demo signup, logout and re-login work
+All regression checks passed; no browser JS errors.

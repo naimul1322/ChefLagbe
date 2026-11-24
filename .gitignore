@@ -1,0 +1,12 @@
+/vendor/
+/.env
+/.env.testing
+/.phpunit.cache/
+/public/storage
+/storage/logs/*.log
+/storage/app/private/*
+!/storage/app/private/.gitkeep
+/bootstrap/cache/*.php
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/cache/data/*

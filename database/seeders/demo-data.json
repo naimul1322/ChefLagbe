@@ -1,0 +1,514 @@
+{
+  "chefs": [
+    {
+      "id": 1,
+      "first_name": "Arif",
+      "last_name": "Hasan",
+      "name": "Chef Arif Hasan",
+      "email": "chef1@cheflagbe.test",
+      "specialty": "Bengali & Indian",
+      "location": "Dhaka",
+      "price_per_hour": 2500,
+      "experience_years": 12,
+      "bio": "Fictional sample chef with 12 years of experience in bengali & indian cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 2,
+      "first_name": "Nusrat",
+      "last_name": "Karim",
+      "name": "Chef Nusrat Karim",
+      "email": "chef2@cheflagbe.test",
+      "specialty": "Asian & Fusion",
+      "location": "Chittagong",
+      "price_per_hour": 3000,
+      "experience_years": 9,
+      "bio": "Fictional sample chef with 9 years of experience in asian & fusion cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 3,
+      "first_name": "Sadia",
+      "last_name": "Rahman",
+      "name": "Chef Sadia Rahman",
+      "email": "chef3@cheflagbe.test",
+      "specialty": "Bengali & Vegetarian",
+      "location": "Sylhet",
+      "price_per_hour": 2200,
+      "experience_years": 10,
+      "bio": "Fictional sample chef with 10 years of experience in bengali & vegetarian cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 4,
+      "first_name": "Fahim",
+      "last_name": "Chowdhury",
+      "name": "Chef Fahim Chowdhury",
+      "email": "chef4@cheflagbe.test",
+      "specialty": "Italian & Mediterranean",
+      "location": "Rajshahi",
+      "price_per_hour": 3800,
+      "experience_years": 11,
+      "bio": "Fictional sample chef with 11 years of experience in italian & mediterranean cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 5,
+      "first_name": "Mariam",
+      "last_name": "Akter",
+      "name": "Chef Mariam Akter",
+      "email": "chef5@cheflagbe.test",
+      "specialty": "Indian & Bengali",
+      "location": "Dhaka",
+      "price_per_hour": 1800,
+      "experience_years": 6,
+      "bio": "Fictional sample chef with 6 years of experience in indian & bengali cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 6,
+      "first_name": "Tanvir",
+      "last_name": "Islam",
+      "name": "Chef Tanvir Islam",
+      "email": "chef6@cheflagbe.test",
+      "specialty": "Asian & BBQ",
+      "location": "Chittagong",
+      "price_per_hour": 3200,
+      "experience_years": 8,
+      "bio": "Fictional sample chef with 8 years of experience in asian & bbq cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 7,
+      "first_name": "Farhana",
+      "last_name": "Nabi",
+      "name": "Chef Farhana Nabi",
+      "email": "chef7@cheflagbe.test",
+      "specialty": "French & Fusion",
+      "location": "Dhaka",
+      "price_per_hour": 4500,
+      "experience_years": 14,
+      "bio": "Fictional sample chef with 14 years of experience in french & fusion cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 8,
+      "first_name": "Imran",
+      "last_name": "Hossain",
+      "name": "Chef Imran Hossain",
+      "email": "chef8@cheflagbe.test",
+      "specialty": "Bengali & Catering",
+      "location": "Sylhet",
+      "price_per_hour": 2800,
+      "experience_years": 10,
+      "bio": "Fictional sample chef with 10 years of experience in bengali & catering cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 9,
+      "first_name": "Raihan",
+      "last_name": "Kabir",
+      "name": "Chef Raihan Kabir",
+      "email": "chef9@cheflagbe.test",
+      "specialty": "Italian & Asian",
+      "location": "Rajshahi",
+      "price_per_hour": 2400,
+      "experience_years": 7,
+      "bio": "Fictional sample chef with 7 years of experience in italian & asian cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    },
+    {
+      "id": 10,
+      "first_name": "Ayesha",
+      "last_name": "Sultana",
+      "name": "Chef Ayesha Sultana",
+      "email": "chef10@cheflagbe.test",
+      "specialty": "Bengali & Private Dining",
+      "location": "Dhaka",
+      "price_per_hour": 3400,
+      "experience_years": 13,
+      "bio": "Fictional sample chef with 13 years of experience in bengali & private dining cuisine. Offers personalized meals for home dining and special occasions.",
+      "availability": {
+        "mon": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "tue": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "wed": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "thu": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "fri": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sat": {
+          "start": "09:00",
+          "end": "21:00"
+        },
+        "sun": {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      },
+      "profile_image": null,
+      "is_verified": true,
+      "rating": 0,
+      "total_reviews": 0
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Home Cooking",
+      "description": "Customized meals prepared in your home.",
+      "icon": "home",
+      "base_price": 2000,
+      "duration_hours": 3
+    },
+    {
+      "id": 2,
+      "name": "Event Chef",
+      "description": "Personal chef for celebrations and gatherings.",
+      "icon": "calendar",
+      "base_price": 3000,
+      "duration_hours": 4
+    },
+    {
+      "id": 3,
+      "name": "Catering Team",
+      "description": "Catering support for larger occasions.",
+      "icon": "users",
+      "base_price": 5000,
+      "duration_hours": 5
+    },
+    {
+      "id": 4,
+      "name": "Cooking Classes",
+      "description": "Hands-on culinary sessions.",
+      "icon": "utensils",
+      "base_price": 4000,
+      "duration_hours": 2
+    },
+    {
+      "id": 5,
+      "name": "Meal Planning",
+      "description": "Meal preparation and menu planning.",
+      "icon": "list",
+      "base_price": 7000,
+      "duration_hours": 4
+    },
+    {
+      "id": 6,
+      "name": "Private Dining",
+      "description": "A special multi-course dining experience.",
+      "icon": "bell",
+      "base_price": 10000,
+      "duration_hours": 4
+    }
+  ]
+}
