@@ -103,6 +103,6 @@ tests/        Automated Tests
 
 ## Developer
 
-**Naimul Islam**
+**Md.Naimul Islam**
 
 **Project:** ChefLagbe – Chef Booking & Marketplace Platform
