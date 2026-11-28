@@ -10,3 +10,5 @@
 /storage/framework/sessions/*
 /storage/framework/views/*
 /storage/framework/cache/data/*
+# Allow the SQLite placeholder (not ignored)
+!/database/database.sqlite
