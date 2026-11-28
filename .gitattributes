@@ -1,0 +1,6 @@
+* text=auto
+*.sh text eol=lf
+*.bash text eol=lf
+Dockerfile text eol=lf
+start.sh text eol=lf
+artisan text eol=lf

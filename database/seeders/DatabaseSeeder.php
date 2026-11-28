@@ -7,8 +7,8 @@ use App\Services\BookingService;
 use Illuminate\Support\Facades\Hash;
 class DatabaseSeeder extends Seeder {
     public function run(): void {
-        if (app()->environment('production')) {
-            throw new \RuntimeException('Demo seeding is disabled in production.');
+        if (User::where('email', 'admin@cheflagbe.test')->exists()) {
+            return;
         }
         $demo = json_decode(file_get_contents(__DIR__ . '/demo-data.json'), true);
         $password = Hash::make('DemoPass123!');

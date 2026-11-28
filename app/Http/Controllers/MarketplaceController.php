@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\{Chef, Service, Booking, User, Review, Contact};
 use App\Services\BookingService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 class MarketplaceController {
     public function chefs(Request $request) {
         $data = $request->validate([
@@ -18,13 +19,16 @@ class MarketplaceController {
         $query = Chef::listed()->with('user');
         if (!empty($data['q'])) {
             $search = '%' . $data['q'] . '%';
-            $query->where(function ($chefQuery) use ($search) {
+            $fullNameExpr = DB::connection()->getDriverName() === 'sqlite'
+                ? "(COALESCE(first_name, '') || ' ' || COALESCE(last_name, ''))"
+                : "CONCAT_WS(' ', first_name, last_name)";
+            $query->where(function ($chefQuery) use ($search, $fullNameExpr) {
                 $chefQuery->where('specialty', 'like', $search)
                     ->orWhere('bio', 'like', $search)
-                    ->orWhereHas('user', function ($userQuery) use ($search) {
+                    ->orWhereHas('user', function ($userQuery) use ($search, $fullNameExpr) {
                         $userQuery->where('first_name', 'like', $search)
                             ->orWhere('last_name', 'like', $search)
-                            ->orWhereRaw("CONCAT_WS(' ', first_name, last_name) LIKE ?", [$search])
+                            ->orWhereRaw("{$fullNameExpr} LIKE ?", [$search])
                             ->orWhere('location', 'like', $search);
                     });
             });

@@ -2,7 +2,10 @@
 
 use Laravel\Sanctum\Sanctum;
 return [
-    'stateful' => explode(',', env('SANCTUM_STATEFUL_DOMAINS', sprintf('%s%s', 'localhost,localhost:8000,127.0.0.1,127.0.0.1:8000,::1', Sanctum::currentApplicationUrlWithPort()))),
+    'stateful' => array_values(array_filter(array_unique(array_merge(
+        explode(',', env('SANCTUM_STATEFUL_DOMAINS', sprintf('%s%s', 'localhost,localhost:8000,127.0.0.1,127.0.0.1:8000,::1', Sanctum::currentApplicationUrlWithPort()))),
+        [env('RENDER_EXTERNAL_HOSTNAME')]
+    )))),
     'guard' => ['web'],
     'expiration' => 1440,
     'token_prefix' => env('SANCTUM_TOKEN_PREFIX', ''),
